@@ -72,7 +72,7 @@ static const jd79653a_seq_t init_seq[] = {
         {0xf3, {0x0a},             1},                             // Undocumented secret from demo code
         {0x61, {0xc8, 0x00, 0xc8}, 3},   // Resolution settings
         {0x60, {0x00},             1},                             // TCON
-        {0x50, {0x97},             1},                             // VCOM sequence
+        {0x50, {0xb7},             1},                             // VCOM sequence
         {0xe3, {0x00},             1},                             // Power saving settings
 };
 
@@ -82,7 +82,7 @@ static const jd79653a_seq_t power_off_seq[] = {
 };
 
 static const jd79653a_seq_t power_on_seq[] = {
-        { 0x50, { 0x97 }, 1 }, // VCOM sequence
+        { 0x50, { 0xb7 }, 1 }, // VCOM sequence
         { 0x04, {}, 0 }, // Power ON
 };
 
