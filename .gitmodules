@@ -6,3 +6,9 @@
 	path = components/lv_examples/lv_examples
 	url = https://github.com/littlevgl/lv_examples.git
 	branch = release/v7
+[submodule "components/esp32.js"]
+	path = components/esp32.js
+	url = git@github.com:huming2207/esp32.js.git
+[submodule "components/quickjs-esp32"]
+	path = components/quickjs-esp32
+	url = git@github.com:huming2207/quickjs-esp32.git
