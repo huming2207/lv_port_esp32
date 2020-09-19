@@ -12,6 +12,4 @@
 [submodule "components/quickjs-esp32"]
 	path = components/quickjs-esp32
 	url = git@github.com:huming2207/quickjs-esp32.git
-[submodule "components/lvml"]
-	path = components/lvml
-	url = git@github.com:huming2207/lvml.git
+
