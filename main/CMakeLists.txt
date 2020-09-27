@@ -4,3 +4,6 @@ idf_component_register(SRCS ${SOURCES}
                     REQUIRES lvgl_esp32_drivers lvgl_touch lvgl_tft lvgl lv_examples)
 
 target_compile_definitions(${COMPONENT_LIB} PRIVATE LV_CONF_INCLUDE_SIMPLE=1)
+
+add_subdirectory(lvml)
+target_link_libraries(${COMPONENT_LIB} PUBLIC lvml)
